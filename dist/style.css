@@ -1,0 +1,31 @@
+
+header {
+    background-color:#ff4500;
+    padding: 2%;
+}
+#title {
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+#cards {
+    width: 100%;
+}
+.employee {
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+  
+}
+.emp-row {
+    margin: auto;
+    margin-top: 3%;
+}
+.card-title{
+    background-color:dodgerblue ;
+    text-align: center;
+}
