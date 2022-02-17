@@ -1,31 +1,41 @@
+* {
+    box-sizing: border-box;
+}
 
-header {
-    background-color:#ff4500;
-    padding: 2%;
+:root {
+    --primary: #ff4500;
+    --secondary: white;
+    --navheading : #1e90ff;
 }
-#title {
-    color: white;
-    text-align: center;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
     font-size: 50px;
 }
-#cards {
-    width: 100%;
+
+.navbar-brand {
+    font-size: 50px;
+    
 }
-.employee {
-    margin: auto;
+
+
+.card-header {
+    background-color: var(--navheading);
+    color: var(--secondary);
 }
-a {
-    text-decoration: none;
-    color: black;
-  
+
+.card-body {
+    background-color: var(--secondary);
 }
-.emp-row {
-    margin: auto;
-    margin-top: 3%;
-}
-.card-title{
-    background-color:dodgerblue ;
-    text-align: center;
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
 }
