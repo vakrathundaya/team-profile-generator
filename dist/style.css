@@ -3,9 +3,8 @@
 }
 
 :root {
-    --primary: #ff4500;
-    --secondary: white;
-    --navheading : #1e90ff;
+    --primary:red;
+    --secondary:dodgerblue;
 }
 
 body {
@@ -14,23 +13,23 @@ body {
 
 #navbar {
     background-color: var(--primary);
-    color: var(--secondary);
     font-size: 50px;
+    color: white;
 }
 
 .navbar-brand {
-    font-size: 50px;
-    
+    font-size: 45px;
 }
 
 
 .card-header {
-    background-color: var(--navheading);
-    color: var(--secondary);
+    background-color: var(--secondary);
+    color:white;
 }
 
 .card-body {
-    background-color: var(--secondary);
+
+    color: black;
 }
 
 .container {
